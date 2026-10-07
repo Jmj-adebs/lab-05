@@ -9,8 +9,11 @@
 https://www.geeksforgeeks.org/kotlin/kotlin-programming-language/
 
 Claude(AI)
+
 Prompt: How do I display a confirmation box after delete button is selected in kotlin?
+
 Answer:
+
 AlertDialog(
             onDismissRequest = { showDialog = false },
             title = { Text("Delete item") },
